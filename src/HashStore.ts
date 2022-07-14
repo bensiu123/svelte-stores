@@ -8,7 +8,6 @@ import { type Updater, writable, type Writable } from 'svelte/store';
 export class HashStore implements Writable<string> {
 	constructor() {
 		const onHashChange = () => {
-			console.log('hash change in HashStore');
 			this._store.set(window.location.hash);
 		};
 
