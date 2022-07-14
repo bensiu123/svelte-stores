@@ -21,3 +21,4 @@ npm i svelte-stores
 ## Stores
 
 - HashStore
+- LocalStorageStore
